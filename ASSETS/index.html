@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game Home</title>
+  <link rel="stylesheet" type="text/css" href="/ASSETS/CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&family=Yesteryear&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <img src="sound.png" alt="Toggle Sound" onclick="toggleSound()"id="toggle-sound">
+
+  <h3>Projects</h3>
+  <div class="category-grid">
+    <div class="category-item" data-href="./txt.html">
+      <img src="folder.png" alt="Category 1">
+      <img src="open.png" alt="Category 1 Hover" class="category-image-hover">
+      <div class="category-title">Category 1</div>
+    </div>
+  
+    <div class="category-item" data-href="./skz.html">
+      <img src="folder.png" alt="Category 2">
+      <img src="open.png" alt="Category 2 Hover" class="category-image-hover">
+      <div class="category-title">Category 2</div>
+    </div>
+  
+    <div class="category-item" data-href="./itzy.html">
+      <img src="folder.png" alt="Category 3">
+      <img src="open.png" alt="Category 3 Hover" class="category-image-hover">
+      <div class="category-title">Category 3</div>
+    </div>
+  
+    <div class="category-item" data-href="./itzy.html">
+      <img src="folder.png" alt="Category 3">
+      <img src="open.png" alt="Category 3 Hover" class="category-image-hover">
+      <div class="category-title">Category 4</div>
+    </div>
+  </div>
+  <audio id="audio-background" loop>
+    <source src="item.mp3" type="audio/mpeg">
+</audio>
+  <script src="/ASSETS/JS/script.js"></script>
+</body>
+</html>
