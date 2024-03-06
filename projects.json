@@ -1,0 +1,15 @@
+[
+
+    {
+        "title": "Jumping Letters",
+        "description": "Develop a fun and dynamic effect with letters that jump, bringing a playful touch to your website.",
+        "link": "./2 Jump Words",
+        "thumbnail": "./ASSETS/jumplet.png"
+    },
+    {
+        "title": "Bell Notification",
+        "description": "Craft a notification system using bells, enhancing user engagement and interaction.",
+        "link": "./3 Bell Notification",
+        "thumbnail": "./ASSETS/notifbelll.png"
+    }
+]
