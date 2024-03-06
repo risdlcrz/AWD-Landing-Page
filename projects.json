@@ -1,14 +1,47 @@
 [
     {
-        "name": "Jumping Letters",
-        "description": "Develop a fun and dynamic effect with letters that jump, bringing a playful touch to your website.",
-        "href": "./2 Jump Words",
-        "thumbnail": "./ASSETS/jumplet.png"
+        "title": "Background Animation",
+        "description": "Create captivating background animations to add visual intrigue to your web projects.",
+        "link": "./1 Background Animation"
     },
     {
-        "name": "Bell Notification",
+        "title": "Jumping Letters",
+        "description": "Develop a fun and dynamic effect with letters that jump, bringing a playful touch to your website.",
+        "link": "./2 Jump Words"
+    },
+    {
+        "title": "Bell Notification",
         "description": "Craft a notification system using bells, enhancing user engagement and interaction.",
-        "href": "./3 Bell Notification",
-        "thumbnail": "./ASSETS/notifbelll.png"
+        "link": "./3 Bell Notification"
+    },
+    {
+        "title": "Scrollbar Indicator",
+        "description": "Implement a stylish indicator to enhance the user experience while scrolling through content.",
+        "link": "./4 Indicator"
+    },
+    {
+        "title": "Resume",
+        "description": "Build a dynamic Captcha generator for enhanced security and user verification.",
+        "link": "./5 Resume"
+    },
+    {
+        "title": "calculator",
+        "description": "Develop an interactive tab preview system using JavaScript for seamless navigation.",
+        "link": "./6 Calculator"
+    },
+    {
+        "title": "Sample Website",
+        "description": "Create a tool that generates secure and unique passwords, prioritizing user data protection.",
+        "link": "./7 Website"
+    },
+    {
+        "title": "Card Flipping",
+        "description": "Design an illumination project, exploring creative ways to use light effects in web development.",
+        "link": "./8 Card Flipping"
+    },
+    {
+        "title": "Sample Animation",
+        "description": "Add a unique scratch effect to your projects, providing an innovative and memorable user experience.",
+        "link": "./9 Animation"
     }
 ]
