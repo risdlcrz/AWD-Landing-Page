@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+.image-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    overflow: auto;
+}
+
+.header {
+    font-family:Georgia;
+    background-color: #0066cc;
+    text-align: left;
+    color: white;
+    padding: 50px;
+    font-size: 50px;
+    background-image: url('https://i.pinimg.com/564x/36/7d/8c/367d8cf0d6cde081f5fee8bd6b8b63c1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 50vh; 
+}
+
+.left {
+    font-family: Tahoma;
+    width: 40%;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    font-size: 20px;
+    color: white;
+    word-wrap: break-word;
+}
+
+.right {
+    font-family: Tahoma;
+    width: 60%;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-size: 20px;
+    background-image: url('https://i.pinimg.com/564x/11/3b/fd/113bfdd64330a696c0f55584b0b52a78.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    word-wrap: break-word;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 200vh;
+    margin: 0;
+}
+
+.info-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid black; 
+    width: 50%;
+    word-wrap: break-word;
+}
+
+.info-button {
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 20px auto; 
+    background-color: #4CAF50; 
+    color: white; 
+    text-align: center;
+    line-height: 50px; 
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.golden-line {
+    border: none;
+    height: 10px;
+    background-color: gold;
+    width: 100%; /* This is equivalent to the width="2000" in your <hr> tag */
+}
+
+.profile-picture {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 50%;
+    margin-left: 10vh;
+}
