@@ -23,6 +23,11 @@ fetch('./projects.json')
             title.textContent = project.name;
             item.appendChild(title);
 
+            // Add a click event listener to the project div
+            item.addEventListener('click', () => {
+                window.location.href = item.dataset.href;
+            });
+
             grid.appendChild(item);
         });
     });
